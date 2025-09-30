@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import PropTypes from 'prop-types';
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {
     useEffect(() => {
@@ -42,3 +43,8 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
         </div>
     </nav>
     )}
+
+Navbar.propTypes = {
+    menuOpen: PropTypes.bool.isRequired,
+    setMenuOpen: PropTypes.func.isRequired,
+};

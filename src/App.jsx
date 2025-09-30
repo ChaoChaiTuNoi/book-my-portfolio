@@ -6,7 +6,9 @@ import { MobileMenu } from './components/MobileMenu'
 import { Home } from './components/sections/Home'
 import { About } from './components/sections/About'
 import { Projects } from './components/sections/Projects'
+import { MotionGallery } from './components/sections/MotionGallery'
 import { Contact } from './components/sections/Contract'
+
 
 const App = () => {
   const [isloaded, setIsLoaded] = useState(false)
@@ -18,6 +20,8 @@ const App = () => {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
+
+        <MotionGallery/>
         <About/>
         <Projects/>
         <Contact/>

@@ -1,7 +1,7 @@
 import { RevealOnScroll } from '../RevealOnScroll';
 import avatar from '/src/assets/peeps-avatar-alpha.png';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaVuejs, FaNodeJs, FaBootstrap } from 'react-icons/fa';
-import { SiTailwindcss, SiExpress, SiMongodb, SiFirebase, SiMysql, SiAdobeaftereffects, SiAdobepremierepro, SiAdobeillustrator, SiAdobephotoshop, SiFigma, SiAdobexd, SiBlender } from 'react-icons/si';
+import { SiTailwindcss, SiExpress, SiMongodb, SiFirebase, SiMysql, SiAdobeaftereffects, SiAdobepremierepro, SiAdobeillustrator, SiAdobephotoshop, SiFigma, SiAdobexd, SiBlender, SiNextdotjs, SiNestjs } from 'react-icons/si';
 
 const tools = [
     { icon: <FaHtml5 size={50} /> },
@@ -9,6 +9,8 @@ const tools = [
     { icon: <FaJs size={50} /> },
     { icon: <FaReact size={50} /> },
     { icon: <FaVuejs size={50} /> },
+    { icon: <SiNextdotjs size={50} /> },
+    { icon: <SiNestjs size={50} /> },
     { icon: <SiTailwindcss size={50} /> },
     { icon: <FaBootstrap size={50} /> },
     { icon: <FaNodeJs size={50} /> },
@@ -36,8 +38,8 @@ export const Home = () => {
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right"> 
                         Hi, My name is Book 
                     </h1>
-                    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I'm a Motion graphic designer and a web developer who love to creat a motion and crafting. My goal is to build my owner game and telling story of my world.
+                    <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
+                        I'm a Motion graphic designer and web developer who loves creating motion graphics and crafting digital experiences. My goal is to build my own game and tell the story of my world through creative technology.
                     </p>
                     <div className="flex justify-center space-x-4 mb-8">
                         <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-meduim transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
